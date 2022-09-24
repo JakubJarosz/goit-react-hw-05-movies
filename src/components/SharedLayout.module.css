@@ -1,0 +1,17 @@
+.mainlist {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+
+.mainlistitem {
+    margin-left: 20px;
+}
+
+.active {
+   color: green;
+}
+
+.notactive {
+    color: blue;
+}

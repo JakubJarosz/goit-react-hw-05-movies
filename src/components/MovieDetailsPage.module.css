@@ -1,0 +1,17 @@
+.allMainInfoDiv {
+    margin-top: 20px;
+    display: flex;
+}
+
+.infoDiv {
+    margin-left: 15px;
+}
+
+.genresList {
+    list-style-type: none;
+    display: flex;
+}
+
+.genresItem {
+    margin-left: 10px;
+}
