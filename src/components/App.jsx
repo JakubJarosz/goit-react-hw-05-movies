@@ -36,7 +36,7 @@ export const App = () => {
     <div>
       <Suspense fallback={<div>Loading...</div>}>
       <Routes>
-        <Route path="/" element={<SharedLayout/>}>
+          <Route path="/" element={<SharedLayout/>}>
      
           <Route index element={<HomePage
             PopularMovies={PopularMovies}
