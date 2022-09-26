@@ -16,7 +16,7 @@ export const App = () => {
 
   useEffect(() => {
     fetchApiMostPopular();
-  
+    console.log(process.env.PUBLIC_URL)
   }, [])
 
 
