@@ -3,14 +3,6 @@ import { Outlet, NavLink, useLocation } from 'react-router-dom'
 import styles from "../components/SharedLayout.module.css"
 import styled from "styled-components";
 
-const StyledLink = styled(NavLink)`
-  color: black;
-
-  &.active {
-    color: orange;
-  }
-`;
-
 
 
 
