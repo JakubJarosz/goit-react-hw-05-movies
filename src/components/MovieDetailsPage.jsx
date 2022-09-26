@@ -84,7 +84,7 @@ export default function MovieDetailsPage() {
                     <h4>Genres</h4>
                     <ul className={styles.genresList}>
                                 {clicked.genres.map((el) => (
-                                    <li key={uuid()} className={styles.genresItem}>{el.name}</li>
+                                    <li key={uuid()} className={styles.generalList}>{el.name}</li>
                         ))}
                             </ul>
                         </div>
