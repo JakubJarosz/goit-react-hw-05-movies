@@ -33,9 +33,10 @@ export const App = () => {
 
 
   return (
+     
     <div>
       <Suspense fallback={<div>Loading...</div>}>
-        <Routes basename="/goit-react-hw-05-movies">
+        <Routes basename="#/goit-react-hw-05-movies">
           <Route path="/" element={<SharedLayout/>}>
      
           <Route index element={<HomePage
