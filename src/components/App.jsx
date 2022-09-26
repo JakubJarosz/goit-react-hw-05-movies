@@ -36,7 +36,7 @@ export const App = () => {
      
     <div>
       <Suspense fallback={<div>Loading...</div>}>
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL + '/'}>
           <Route path="/" element={<SharedLayout/>}>
      
           <Route index element={<HomePage
