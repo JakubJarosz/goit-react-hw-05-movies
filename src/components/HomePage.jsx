@@ -12,7 +12,7 @@ export default function HomePage(props) {
             <ul>
                 {props.PopularMovies && props.PopularMovies.map((value) =>
                     <li key={value.id}>
-                        <Link to={`/movie/${value.id}`}>{value.title || value.name}</Link>
+                        <Link to={`/goit-react-hw-05-movies/movie/${value.id}`}>{value.title || value.name}</Link>
                     </li>
                 )}
             </ul>

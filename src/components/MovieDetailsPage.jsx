@@ -92,10 +92,10 @@ export default function MovieDetailsPage() {
                     <p>Additional information</p>
                     <ul>
                         <li>
-                            <Link to={`/movie/${clicked.id}/cast`} onClick={handleCastClick}>Cast</Link>
+                            <Link to={`/goit-react-hw-05-movies/movie/${clicked.id}/cast`} onClick={handleCastClick}>Cast</Link>
                         </li>
                         <li>
-                            <Link to={`/movie/${clicked.id}/reviews`} onClick={handleReviewClick}>Reviews</Link>
+                            <Link to={`/goit-react-hw-05-movies/movie/${clicked.id}/reviews`} onClick={handleReviewClick}>Reviews</Link>
                         </li>
                     </ul>
                     <div>
