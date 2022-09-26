@@ -42,7 +42,7 @@ export default function MoviesPage() {
             </form>
             {movies && movies.map((value) =>
                 <li key={value.id}>
-                    <Link to={`/goit-react-hw-05-movies/movie/${value.id}`}>{value.title || value.name}</Link>
+                    <Link to={`/movie/${value.id}`}>{value.title || value.name}</Link>
                 </li>
             )}
         </div>

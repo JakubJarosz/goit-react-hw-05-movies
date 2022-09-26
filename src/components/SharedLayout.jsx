@@ -24,10 +24,10 @@ export default function SharedLayout() {
               <NavLink></NavLink>
                 <ul className={styles.mainlist}>
                     <li className={styles.mainlistitem}>
-              <NavLink to="/goit-react-hw-05-movies/" className={`${url}` === "/goit-react-hw-05-movies/" ? styles.active : styles.notactive }>Home</NavLink>
+                        <NavLink to="/" className={`${url}` === "/" ? styles.active : styles.notactive }>Home</NavLink>
                     </li>
                     <li className={styles.mainlistitem}>
-              <NavLink to="/goit-react-hw-05-movies/movie" className={`${url}` === "/goit-react-hw-05-movies/movie" ? styles.active : styles.notactive}>Movies</NavLink>
+                        <NavLink to="/movie" className={`${url}` === "/movie" ? styles.active : styles.notactive}>Movies</NavLink>
                     </li>
                     </ul>
                 

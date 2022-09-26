@@ -36,19 +36,19 @@ export const App = () => {
      
     <div>
       <Suspense fallback={<div>Loading...</div>}>
-        <Routes basename={process.env.PUBLIC_URL + '/'}>
-          <Route path="/goit-react-hw-05-movies/" element={<SharedLayout/>}>
+        <Routes>
+          <Route path="/" element={<SharedLayout/>}>
      
           <Route index element={<HomePage
             PopularMovies={PopularMovies}
           />} />
-            <Route path="/goit-react-hw-05-movies/movie" element={<MoviesPage />} />
-            <Route path={`/goit-react-hw-05-movies/movie/:id`} element={<MovieDetailsPage
+          <Route path="/movie" element={<MoviesPage />} />
+          <Route path={`/movie/:id`} element={<MovieDetailsPage
         
             
           />} />
-            <Route path={`/goit-react-hw-05-movies/movie/:id/cast`} element={<MovieDetailsPage />} />
-            <Route path={`/goit-react-hw-05-movies/movie/:id/reviews`} element={<MovieDetailsPage />} />
+          <Route path={`/movie/:id/cast`} element={<MovieDetailsPage />} />
+          <Route path={`/movie/:id/reviews`} element={<MovieDetailsPage />} />
         </Route>
         </Routes>
       </Suspense>
